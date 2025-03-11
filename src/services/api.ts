@@ -2,7 +2,7 @@ import axios from 'axios';
 import { Quiz, RecentQuiz, LeaderboardEntry } from '../types';
 
 // const API_BASE_URL = 'https://quiz-server-make.onrender.com/api';
-const API_BASE_URL = 'http://localhost:3000/api';
+const API_BASE_URL = 'http://localhost:3000/api/';
 
 // Create axios instance with base configuration
 const apiClient = axios.create({
